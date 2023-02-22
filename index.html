@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+
+    <link rel="shortcut icon" type="image" href="images/logo.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <nav>
+        <ul>
+           <li id = "navbar" class="brand"><img src="images/logo.png" alt="Image" />Music Player</li>
+           <li>Home</li>
+           <li>Intrest</li>
+           <li>About</li>
+        </ul>
+      </nav>
+
+      <div class="container">
+        <div class="songList">
+          <h1>Best of Arjit Singh</h1>
+          <div class="songItemContainer">
+            <div class="songItems">
+              <img alt="1">
+              <span class="songName">Keshariya</span>
+              <span class="songlistplay"> <span class="timestamp">5:40 <i id = "0" class="far songItemPlay fa-regular fa-circle-play"  title="Play"></i></span></span>
+            </div>
+            <div class="songItems">
+              <img alt="1">
+              <span class="songName">Bad Liar</span>
+              <span class="songlistplay"> <span class="timestamp">5:40 <i id = "1" class="far songItemPlay fa-regular fa-circle-play"  title="Play"></i></span></span>
+            </div>
+            <div class="songItems">
+              <img alt="1">
+              <span class="songName">Keshariya</span>
+              <span class="songlistplay"> <span class="timestamp">5:40 <i id = "2" class="far songItemPlay fa-regular fa-circle-play"  title="Play"></i></span></span>
+            </div>
+            <div class="songItems">
+              <img alt="1">
+              <span class="songName">Keshariya</span>
+              <span class="songlistplay"> <span class="timestamp">5:40 <i id = "3" class="far songItemPlay fa-regular fa-circle-play"  title="Play"></i></span></span>
+            </div>
+            <div class="songItems">
+              <img alt="1">
+              <span class="songName">Keshariya</span>
+              <span class="songlistplay"> <span class="timestamp">5:40 <i id = "4" class="far songItemPlay fa-regular fa-circle-play"  title="Play"></i></span></span>
+            </div>
+            <div class="songItems">
+              <img alt="1">
+              <span class="songName">Keshariya</span>
+              <span class="songlistplay"> <span class="timestamp">5:40 <i id = "5" class="far songItemPlay fa-regular fa-circle-play"  title="Play"></i></span></span>
+            </div>
+            <div class="songItems">
+              <img alt="1">
+              <span class="songName">Keshariya</span>
+              <span class="songlistplay"> <span class="timestamp">5:40 <i id = "6" class="far songItemPlay fa-regular fa-circle-play"  title="Play"></i></span></span>
+            </div>
+          </div>
+
+        </div>;
+        <div class="songBanner"></div>
+      </div>
+
+      <div class="bottom">
+        <input type="range" name="Range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+          <!-- fontawesome icons -->
+          <i  class="fa-solid fa-2x fa-backward" id = "previous"  title="Previous"></i>
+          <i  class="fa-regular fa-2x fa-circle-play" id="masterPlay"  title="Play"></i>
+          <i  class="fa-solid fa-2x fa-forward" id = "next"  title="Next"></i>
+
+        </div>
+
+        <!-- <div class="volume-panel">
+          <div class="input-div"></div>
+        </div> -->
+        <div class="songsInfo">
+          <img src="gif-1.gif" width="42px" alt="1" id="gif"><span id="masterSongName">Bad Liar</span>
+        </div>
+      </div>
+     
+      <script src="script.js"></script>
+  </body>
+</html>

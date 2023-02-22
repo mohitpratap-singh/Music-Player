@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Roboto:wght@100;300&family=Varela+Round&display=swap');
+
+body {
+    background-color: rgb(34, 240, 226);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    font-family: 'Roboto', sans-serif ;
+
+}
+
+ nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+} 
+
+nav ul li {
+    padding: 0 12px;
+    cursor: pointer;
+   
+}
+nav ul li:hover{
+    color: chartreuse;
+
+}
+
+.brand img{
+    width: 44px;
+    border-radius: 100%;
+    padding: 0 6px;
+   cursor: pointer;
+  
+
+}
+
+
+
+.brand{
+    /* padding: 0 20px; */
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+
+}
+.brand:hover{
+color: blueviolet;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela round',sans-serif;
+    display: flex;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(arjit-3.png);
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px; 
+    padding:0 12px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+} 
+
+.songItemContainer{
+    margin: 14px 14px;
+}
+.songItems{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 128%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    font-weight: bolder;
+}
+
+.songItems img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i {
+    cursor: pointer;
+    padding: 7px;
+}
+
+.songsInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela round',sans-serif;
+}
+
+.songsInfo img{
+    opacity: 0;
+    transition: opacity ease-in;
+}
+.counter{
+    padding: 3px;
+}
