@@ -1,1 +1,1 @@
-# VanekPlayer.github.io
+# Player.github.io
